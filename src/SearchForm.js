@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import kinderData from './testData.js';
-import DistrictRepository from './helper';
 import PropTypes from 'prop-types';
 
 export default class SearchForm extends Component {
@@ -33,5 +31,5 @@ export default class SearchForm extends Component {
 }
 
 SearchForm.propTypes = {
-  searchSchool: PropTypes.func.isRequired
+  searchSchool: PropTypes.func
 };
